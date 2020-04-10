@@ -1,7 +1,7 @@
-import { CLICK_UPDATE_VALUE } from '../actions/actionTypes';
+import { CLICK_UPDATE_VALUE } from '../actions/actionTypes.js';
 
 const initialState = {
-    newValue: ''
+    newValue: 'Texto Padrão'
 };
 
 export const clickReducer = (state = initialState, action) => {
